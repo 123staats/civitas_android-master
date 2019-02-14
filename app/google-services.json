@@ -1,0 +1,58 @@
+{
+	"project_info": {
+		"project_number": "700991722617",
+		"firebase_url": "https://civitas-203823.firebaseio.com",
+		"project_id": "civitas-203823",
+		"storage_bucket": "civitas-203823.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:700991722617:android:7817817a0eb307b5",
+				"android_client_info": {
+					"package_name": "eu.mlab.civitas.android"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "700991722617-lcjbqbb1283e9gisugnfag9hof82eqaa.apps.googleusercontent.com",
+					"client_type": 1,
+					"android_info": {
+						"package_name": "eu.mlab.civitas.android",
+						"certificate_hash": "7b712636a9479c2185a1915c03425b9de42f0182"
+					}
+				},
+				{
+					"client_id": "700991722617-hikgl90050qtnvh9om6p01ckurblfen6.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyAjdNoSS_sWzB4tDJXPev3c85bNLzW2QIY"
+				},
+				{
+					"current_key": "AIzaSyAjdNoSS_sWzB4tDJXPev3c85bNLzW2QIY"
+				}
+			],
+			"services": {
+				"analytics_service": {
+					"status": 1
+				},
+				"appinvite_service": {
+					"status": 2,
+					"other_platform_oauth_client": [
+						{
+							"client_id": "700991722617-hikgl90050qtnvh9om6p01ckurblfen6.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				},
+				"ads_service": {
+					"status": 2
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

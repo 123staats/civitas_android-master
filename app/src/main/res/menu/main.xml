@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="eu.mlab.civitas.android.MapActivity">
+
+    <item
+        android:id="@+id/action_read_mode"
+        android:icon="@drawable/ic_pin_drop_white_24px"
+        android:orderInCategory="206"
+        android:title="@string/read_mode"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_localize"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:orderInCategory="207"
+        android:title="@string/localize"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter_list_black_24px"
+        android:orderInCategory="207"
+        android:title="@string/filter"
+        app:showAsAction="always"/>
+</menu>

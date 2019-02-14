@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/navigation_drawer_group_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_view_item_map"
+            android:checked="true"
+            android:icon="@drawable/ic_map_black_24px"
+            android:title="@string/map"/>
+        <!--<item-->
+            <!--android:id="@+id/navigation_view_item_my_artefacts"-->
+            <!--android:icon="@drawable/ic_pin_drop_black_24px"-->
+            <!--android:title="@string/my_artefacts"/>-->
+        <!--
+        <item
+            android:id="@+id/navigation_view_item_bookmarks"
+            android:icon="@drawable/ic_bookmark_black_24px"
+            android:title="@string/bookmarks"/>
+        -->
+        <item
+            android:id="@+id/navigation_view_item_introduction"
+            android:icon="@drawable/ic_intro_history_city"
+            android:title="@string/introduction"/>
+    </group>
+    <group
+        android:id="@+id/navigation_drawer_group_two"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/navigation_view_item_about"
+            android:title="@string/nav_drawer_item_about"/>
+        <item
+            android:id="@+id/navigation_view_item_logout"
+            android:title="@string/nav_drawer_item_logout"/>
+    </group>
+</menu>

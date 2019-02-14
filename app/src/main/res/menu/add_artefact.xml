@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="eu.mlab.civitas.android.addartefact.AddArtefactActivity">
+    <item
+        android:id="@+id/next"
+        android:orderInCategory="100"
+        android:title="@string/finish"
+        app:showAsAction="always" />
+
+</menu>

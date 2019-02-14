@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "920797867580",
+    "firebase_url": "https://civitas-1492691370867.firebaseio.com",
+    "project_id": "civitas-1492691370867",
+    "storage_bucket": "civitas-1492691370867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920797867580:android:7817817a0eb307b5",
+        "android_client_info": {
+          "package_name": "eu.mlab.civitas.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_2eyFw2lgQvqf-AavUAyfaM6B_ogB24A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": [] 
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

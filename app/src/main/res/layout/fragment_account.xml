@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="horizontal">
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <!-- The main content view -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/toolbar_main"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/text_email_info"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:text="@string/text_logged_in_as"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/text_email_value"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_below="@+id/text_email_info"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="@string/button_log_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <!-- The navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:maxWidth="280dp"
+        app:elevation="16dp"
+        app:menu="@menu/drawer"/>
+</android.support.v4.widget.DrawerLayout>
+</LinearLayout>
