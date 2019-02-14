@@ -64,6 +64,7 @@ public class LoginFragment extends Fragment implements GoogleApiClient.OnConnect
         // Build a GoogleSignInClient with the options specified by gso.
         mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
         Log.d(TAG, "onCreate: testcommit");
+        Log.d(TAG, "onCreate: kasndkja ");
     }
 
     @Override
